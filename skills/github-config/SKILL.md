@@ -9,10 +9,10 @@ description: Load when the Engineer agent needs repository details, branch strat
 
 | Field | Value |
 |---|---|
-| Repository owner | [GITHUB_ORG_OR_USER] |
-| Repository name | [REPO_NAME] |
-| Full repository path | [GITHUB_ORG_OR_USER]/[REPO_NAME] |
-| Default base branch | [e.g. main] |
+| Repository owner | Agentic-Engineering-LTD |
+| Repository name |replay-bugfix |
+| Full repository path | https://github.com/Agentic-Engineering-LTD/replay-bugfix |
+| Default base branch | main |
 | GitHub API secret name | GITHUB_TOKEN |
 
 The GitHub token is stored as a Paperclip secret named `GITHUB_TOKEN`. It requires `contents: write` and `pull-requests: write` permissions.
